@@ -46,7 +46,11 @@
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
     .hamburger, .hamburger_active{
-        right: 2.5rem;
+        top: 4rem;
+        right: 4rem;
+    }
+    .bar{
+        height: 0.3rem;
     }
 }
 
