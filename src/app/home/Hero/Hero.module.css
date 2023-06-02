@@ -15,7 +15,6 @@
 .hero_img{
     flex: 0.5;
     pointer-events: none;
-    /* height: 40rem; */
 }
 
 .hero_text{
@@ -37,5 +36,12 @@
 
 .hero_btn p{
     font-weight: bold;
+}
+
+/* Tablets (portrait) */
+@media (max-width: 950px) { 
+    .hero_img{
+        display: none;
+    }
 }
 
