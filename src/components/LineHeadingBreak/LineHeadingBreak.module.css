@@ -1,0 +1,17 @@
+.line_breaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.5rem;
+  }
+  
+.line {
+    flex: 1;
+    height: 0.2rem;
+    background-color: rgba(61, 148, 255, 0.6);
+}
+
+.text {
+    padding: 0 10px;
+    color: rgba(61, 148, 255, 0.6);
+}

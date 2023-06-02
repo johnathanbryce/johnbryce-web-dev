@@ -1,3 +1,23 @@
 .services{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 28rem;
 }
+
+.services_card_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--contentGap);
+    /* width: 40rem; */
+    flex: 2;
+    text-align: center;
+}
+
+.services_card_top p {
+    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+}
+

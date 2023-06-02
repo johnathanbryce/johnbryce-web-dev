@@ -21,11 +21,11 @@
     position: relative;
     display: block;
     width: calc(100% + 15rem);
-    height: 100vh;
+    height: 80vh;
 }
 
 .background_curve .shape_fill {
-    fill: #21366D;
+    fill: var(--primaryColor);
 }
 /* ******* */
 

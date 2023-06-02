@@ -1,0 +1,41 @@
+.hero_btn{
+    background-color: var(--defaultColor);
+    padding: 2rem;
+    width: 22rem;
+    border-radius: var(--borderRadius);
+}
+
+.hero_btn:hover{
+    transition: var(--hoverTransition);
+    background-color: var(--tertiaryColor);
+    outline: 0.2rem solid var(--defaultColor);
+}
+
+.hero_btn p{
+    font-weight: bold;
+}
+
+.hero_btn:hover p {
+    color: var(--textColorFlip);
+}
+
+/* blue bg styles */
+.hero_btn_blue{
+    background-color: var(--secondaryColor);
+    border-radius: var(--borderRadius);
+}
+
+.hero_font_white{
+    font-weight: bold;
+    color: var(--defaultColor);
+}
+
+.hero_btn_blue:hover{
+    background-color: var(--defaultColor);
+    outline: 0.2rem solid var(--primaryColor); 
+}
+
+
+  
+  
+
