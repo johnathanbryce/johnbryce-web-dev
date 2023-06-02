@@ -3,17 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 10rem; /* MATCH WITH FOOTER */
+    padding: 2.5rem 10.5%; /* MATCH WITH FOOTER */
     background-color: var(--primaryColor);
     position: relative;
-}
-
-.logo {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 1rem;
-    object-fit: cover;
-
 }
 
 .navbar ul {
@@ -49,6 +41,13 @@
     transform: scaleX(1);
 }
 
+/* Smaller Screen Rezise */
+@media only screen and (max-width: 1200px){
+    .header {
+        /* padding: 2.5rem 5rem; */
+      }
+}
+
 /* Tablets (portrait) */
 @media (max-width: 950px) { 
     .header {
@@ -66,5 +65,12 @@
     .header{
         padding: 3rem 2.5rem; /* MATCH WITH FOOTER */
     }
+}
+
+/* Galaxy fold / < 300 px tiny screens */
+@media only screen and (max-width: 300px){
+    .header {
+        padding: 3rem 1rem;
+      }
 }
 

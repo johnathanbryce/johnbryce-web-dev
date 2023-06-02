@@ -1,7 +1,7 @@
 :root {
     --primaryColor: #21366D;
     --secondaryColor: #3A4CBB;
-    --tertiaryColor: #A8DFF1;
+    --tertiaryColor: #86A5D9;
     --defaultColor: #FFFFFF; 
 
     --highlightColor: #5AFF15;
@@ -12,5 +12,10 @@
 
     --textColor: #FFFFFF;
     --textColorFlip: #424242;
+
+    /* border styles */
+    --borderRadius: 0.5rem;
+    /* hover transition */
+    --hoverTransition: 0.3s ease-in-out;
     
 }
