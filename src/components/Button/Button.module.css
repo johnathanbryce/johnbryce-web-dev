@@ -17,7 +17,7 @@
 }
 
 .hero_btn:hover p {
-    color: var(--textColorFlip);
+    color: var(--primaryColor);
 }
 
 /* blue bg styles */
@@ -28,13 +28,14 @@
 
 .hero_font_white{
     font-weight: bold;
-    color: var(--defaultColor);
+    color: var(--textColor);
 }
 
 .hero_btn_blue:hover{
     background-color: var(--defaultColor);
     outline: 0.2rem solid var(--primaryColor); 
 }
+
 
 
   
