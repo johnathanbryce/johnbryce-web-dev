@@ -8,7 +8,7 @@
 .hero_text_container{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: var(--contentGap);
     flex: 1;
 }
 
@@ -22,24 +22,9 @@
     font-size: clamp(1.4rem, 3vw, 2rem)
 }
 
-.hero_btn{
-    background-color: var(--defaultColor);
-    padding: 2rem;
-    width: 18rem;
-    border-radius: var(--borderRadius);
-}
-
-.hero_btn:hover{
-    transition: var(--hoverTransition);
-    background-color: var(--tertiaryColor);
-}
-
-.hero_btn p{
-    font-weight: bold;
-}
 
 /* Tablets (portrait) */
-@media (max-width: 950px) { 
+@media (max-width: 1050px) { 
     .hero_img{
         display: none;
     }

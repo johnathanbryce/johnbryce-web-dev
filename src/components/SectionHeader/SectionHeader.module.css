@@ -1,0 +1,9 @@
+.section_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_standout_color{
+    color: var(--secondaryColor);
+}

@@ -1,21 +1,24 @@
 :root {
-    --primaryColor: #21366D;
-    --secondaryColor: #3A4CBB;
-    --tertiaryColor: #86A5D9;
+    --primaryColor: #0062E6;
+    --secondaryColor: #3D94FF;
+    --tertiaryColor: #D8DBE2;
     --defaultColor: #FFFFFF; 
 
-    --highlightColor: #5AFF15;
+    --highlightColor: #FFF07C;
     --errorColor: red;
     
-    --backgroundColor: #21366D;
+    --backgroundColor: #0062E6;
     --backgroundColorFlip: #FFFFFF;
 
     --textColor: #FFFFFF;
-    --textColorFlip: #424242;
+    --textColorFlip: #1B1B1E;
 
     /* border styles */
     --borderRadius: 0.5rem;
     /* hover transition */
     --hoverTransition: 0.3s ease-in-out;
+
+    /* content gap*/
+    --contentGap: 2.2rem;
     
 }

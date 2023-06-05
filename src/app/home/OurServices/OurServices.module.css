@@ -1,3 +1,55 @@
 .services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 28rem;
+}
 
+.services_card_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--contentGap);
+    width: 75%;
+    flex: 2;
+    text-align: center;
+}
+
+.services_card_top p {
+    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+}
+
+.services_card_container{
+    display: flex;
+    gap: var(--contentGap);
+}
+
+.services_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: var(--contentGap);
+    border: 1px solid white;
+    margin-top: 3rem;
+    flex: 1;
+}
+
+.services_icon{
+    width: 10rem;
+    height: auto;
+}
+
+.services_card p {
+    flex: 1;
+}
+
+/* Tablets (portrait) */
+@media (max-width: 950px) { 
+    .services_card_container {
+        flex-direction: column;
+    }
 }

@@ -22,9 +22,10 @@ main {
 
 /* Typography */
 p {
-    font-size: clamp(1.4rem, 2vw, 1.6rem);
+    font-size: clamp(1.6rem, 2vw, 1.8rem);
     color: var(--textColorFlip);
     margin: 0;
+    font-weight: 500;
 }
 
 li {
@@ -32,14 +33,15 @@ li {
     color: var(--textColor);
 }
   
-h1, h2, h3, h4, h5, h6{
-    color: var(--textColor);
-
+h2, h3, h4, h5, h6{
+    color: var(--textColorFlip);
 }
+
 
 h1 {
   font-size: clamp(3.5rem, 5vw, 4.8rem);
   font-weight: bold;
+  color: var(--textColor);
 }
 
 h2 {
