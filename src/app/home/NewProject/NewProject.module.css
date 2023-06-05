@@ -1,0 +1,62 @@
+.new_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--contentGap);
+    background-color: var(--primaryColor);
+    padding: 3% 10%;
+}
+
+.new_project h2 {
+    color: var(--textColor)
+}
+
+.main_content_left{
+    display: flex;
+    flex-direction: column;
+    gap: var(--contentGap);
+    flex: 1;
+}
+
+.project_image{
+    flex: 0.2;
+}
+
+.white_font_bold{
+    color: var(--textColor);
+    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+}
+
+.contact_container{
+    display: flex;
+    align-items: center;
+    gap: var(--contentGap);
+}
+
+/* Tablets (portrait) */
+@media (max-width: 950px) { 
+    .project_image{
+        display: none;
+    }
+}
+
+/* Mobile Devices up to 480px */
+@media (max-width: 480px) {  
+    .main_content_left{
+        align-items: center;
+        text-align: center;
+    }
+    .contact_container{
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+}
+
+
+
+/* Galaxy fold / < 300 px tiny screens */
+@media only screen and (max-width: 300px){
+    .new_project {
+        padding: 2% 1rem;
+    }
+}
