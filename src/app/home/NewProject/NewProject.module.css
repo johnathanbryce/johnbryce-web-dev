@@ -54,9 +54,9 @@
 
 
 
-/* Galaxy fold / < 300 px tiny screens */
-@media only screen and (max-width: 300px){
+/* Mobile Devices up to 480px */
+@media (max-width: 480px){
     .new_project {
-        padding: 2% 1rem;
+        padding: 8% 1rem;
     }
 }

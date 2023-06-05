@@ -6,6 +6,7 @@ import LayoutContainer from "@/components/LayoutContainer/LayoutContainer"
 import Hero from "./home/Hero/Hero"
 import OurServices from "./home/OurServices/OurServices"
 import NewProject from "./home/NewProject/NewProject"
+import Portfolio from './home/Portfolio/Portfolio'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </LayoutContainer>
       <NewProject />
       <LayoutContainer>
+        <Portfolio />
 
       </LayoutContainer>
     </main>

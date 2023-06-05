@@ -1,0 +1,20 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+    margin-top: 7rem;
+}
+
+.portfolio_card_container{
+    display: flex;
+    justify-content: center;
+/*     flex-wrap: wrap; */
+    gap: 5.5rem;
+}
+
+/* Tablets (landscape) / Small Laptops) */
+@media (max-width: 1100px) { 
+    .portfolio_card_container{
+        flex-wrap: wrap;
+    }
+}
