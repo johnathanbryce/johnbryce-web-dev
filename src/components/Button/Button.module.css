@@ -13,6 +13,7 @@
 
 .hero_btn p{
     font-weight: bold;
+    color: var(--textColorFlip);
 }
 
 .hero_btn:hover p {

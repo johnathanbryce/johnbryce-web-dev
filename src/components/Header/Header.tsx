@@ -54,11 +54,10 @@ function HeaderStandard() {
 
         <nav className={styles.navbar}>
             <ul>
-            <li><Link href="" > Home </Link></li> 
-                    <li><Link href="" > Services </Link></li>
-                    <li><Link href="" > Contact </Link></li>  
-                    <li><Link href="" > Portfolio </Link></li>     
-                    <li><Link href="" > About </Link></li>
+                <li><Link href="" > Services </Link></li>
+                <li><Link href="" > Portfolio </Link></li>     
+                <li><Link href="" > About </Link></li>
+                <li><Link href="" > Contact </Link></li>  
             </ul>
         </nav>
         
@@ -66,10 +65,10 @@ function HeaderStandard() {
         { isDropdownActive &&
             <NavBarDropdown>
                     <li><Link href="" onClick={onNavItemClickCloseDropdown}> Home </Link></li> 
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Services </Link></li>
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Contact </Link></li>  
+                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Services </Link></li>  
                     <li><Link href="" onClick={onNavItemClickCloseDropdown}> Portfolio </Link></li>     
                     <li><Link href="" onClick={onNavItemClickCloseDropdown}> About </Link></li>
+                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Contact </Link></li>
             </NavBarDropdown>
         }
 
