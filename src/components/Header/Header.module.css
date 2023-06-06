@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     gap: 5.25rem;
+    cursor: pointer;
 }
 
 .navbar li {

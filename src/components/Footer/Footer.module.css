@@ -36,6 +36,7 @@
 .navbar li {
     position: relative; /* for underline animation */
     letter-spacing: 0.2rem;
+    cursor: pointer;
 }
 
 

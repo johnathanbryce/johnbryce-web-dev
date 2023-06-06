@@ -7,7 +7,7 @@ import jbBioPic from '../../../../public/images/jbBioPic.jpg'
 
 function About() {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
         <SectionHeader title={'WE ARE'} isWho={true}/>
         <div className={styles.text_container}>
             <p>My name is John and I am a web developer based in Vancouver, BC. I started this business out of a passion for creating modern websites with meticulous attention to detail. Constantly seeking new challenges and projects, I am committed to continuous learning in the ever- evolving field of web development.</p>

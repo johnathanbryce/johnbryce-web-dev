@@ -9,7 +9,7 @@ import responsive from '../../../../public/images/responsive.png'
 
 function OurServices() {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="services">
       <SectionHeader title={'EXPERTISE'} isOur={true} />
       <div className={styles.services_card_top}>
         <p>We specialize in creating accessible and mobile-friendly web designs and development specifically tailored for small businesses. Every line of code is written by hand to ensure exceptional performance.</p>

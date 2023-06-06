@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <Header />
       <LayoutContainer>
-        <Hero />
+        <Hero />  
         <OurServices />
       </LayoutContainer>
       <NewProject />

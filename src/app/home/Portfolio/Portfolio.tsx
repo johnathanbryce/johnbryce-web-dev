@@ -9,7 +9,7 @@ import sollunnaEssence from '../../../../public/images/sollunnaEssence.jpeg'
 
 function Portfolio() {
   return (
-    <section className={styles.portfolio}>
+    <section className={styles.portfolio} id="portfolio">
         <SectionHeader title={'PORTFOLIO'} isOur={true} />
         <div className={styles.portfolio_card_container}>
             <PortfolioCard 
