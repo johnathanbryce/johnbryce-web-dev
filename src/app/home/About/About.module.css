@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: var(--contentGap);
+    margin-bottom: 5rem;
 }
 
 .text_container{

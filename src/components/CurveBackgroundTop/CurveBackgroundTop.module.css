@@ -1,10 +1,3 @@
-.bg_curve{
-    position: absolute;
-    top: 0;
-    z-index: -1;
-   
-}
-
 .background_curve {
     position: absolute;
     top: 12rem;
@@ -41,13 +34,6 @@
     }
     .background_curve svg {
         height: 60rem;
-    }
-}
-
-/* Mobile Devices up to 480px */
-@media (max-width: 850px) {  
-    .background_curve svg {
-       /*  height: 60vh; */
     }
 }
 
