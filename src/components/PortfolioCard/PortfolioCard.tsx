@@ -8,9 +8,10 @@ interface PortfolioCardProps {
     location: string,
     description: string,
     buttonLabel: string,
+    buttonSrc: string,
 }
 
-function PortfolioCard({image, header, location, description, buttonLabel}: PortfolioCardProps) {
+function PortfolioCard({image, header, location, description, buttonLabel, buttonSrc}: PortfolioCardProps) {
   return (
     <div className={styles.portfolio_card}>
         <Image src={image} alt='A preview of a website built by John Bryce'/>
@@ -20,7 +21,7 @@ function PortfolioCard({image, header, location, description, buttonLabel}: Port
         </div>
         <p> {description} </p>
         <button className={styles.portfolio_btn}>
-            <p>VISIT {buttonLabel}</p>
+            <a href={buttonSrc} target="_blank" rel="noreferrer"><p>VISIT {buttonLabel}</p></a>
         </button>
     </div>
   )

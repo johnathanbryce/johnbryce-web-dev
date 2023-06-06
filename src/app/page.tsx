@@ -7,6 +7,7 @@ import Hero from "./home/Hero/Hero"
 import OurServices from "./home/OurServices/OurServices"
 import NewProject from "./home/NewProject/NewProject"
 import Portfolio from './home/Portfolio/Portfolio'
+import About from './home/About/About'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <NewProject />
       <LayoutContainer>
         <Portfolio />
+        <About />
 
       </LayoutContainer>
     </main>

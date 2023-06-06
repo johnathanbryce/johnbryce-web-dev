@@ -10,7 +10,7 @@ import sollunnaEssence from '../../../../public/images/sollunnaEssence.jpeg'
 function Portfolio() {
   return (
     <section className={styles.portfolio}>
-        <SectionHeader title={'PORTFOLIO'} />
+        <SectionHeader title={'PORTFOLIO'} isOur={true} />
         <div className={styles.portfolio_card_container}>
             <PortfolioCard 
                 image={julienV}
@@ -18,6 +18,7 @@ function Portfolio() {
                 location=' Toronto, ON'
                 description='This website showcases the latest personal and professional music compositions of Julien Verschooris, a multi-award-winning composer.'
                 buttonLabel="JULIEN VERSCHOORIS"
+                buttonSrc="https://www.julienverschooris.com/"
             />
             <PortfolioCard 
                 image={romp}
@@ -25,6 +26,7 @@ function Portfolio() {
                 location='Salt Lake City, UT'
                 description='Romp is an activity planning social platform that allows you to create and share activities and events.'
                 buttonLabel="ROMP"
+                buttonSrc="https://rompathlete.com/"
             />
             <PortfolioCard 
                 image={sollunnaEssence}
@@ -32,6 +34,7 @@ function Portfolio() {
                 location='Vancouver, BC'
                 description='Sydney Fisher is a certified Bio-Energy Healing Practitioner, Yoga instructor, and Intuitive reader based in Vancouver, BC'
                 buttonLabel="SOLLUNA ESSENCE"
+                buttonSrc='https://www.sollunaessence.com/'
             />
 
         </div>

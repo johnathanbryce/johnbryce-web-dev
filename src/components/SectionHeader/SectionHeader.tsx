@@ -3,13 +3,16 @@ import styles from './SectionHeader.module.css'
 import LineHeadingBreak from '../LineHeadingBreak/LineHeadingBreak'
 
 interface SectionHeaderProps {
-    title: string
+    title: string,
+    isOur?: boolean,
+    isWho?: boolean
 }
 
-function SectionHeader({title}: SectionHeaderProps) {
+function SectionHeader({title, isOur, isWho}: SectionHeaderProps) {
   return (
     <div className={styles.section_header}>
-        <h2><span className={styles.title_standout_color}>OUR</span> {title}</h2>
+        {isOur && <h2><span className={styles.title_standout_color}>OUR</span> {title}</h2>}
+        {isWho && <h2><span className={styles.title_standout_color}>WHO</span> {title}</h2>}
         <LineHeadingBreak />
     </div>
   )

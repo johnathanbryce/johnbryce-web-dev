@@ -15,10 +15,10 @@ function Hero() {
                 <p className={styles.hero_text}> We provide completely hand-coded websites with exceptional outcomes, without relying on page builders or WordPress.</p>
                 <Button label="GET IN TOUCH"/>
             </div>
-            {/* consider mimicing these guys isntead for side image: https://www.bragdeal.com/ */}
-            <Image className={styles.hero_img} src={heroImage} alt=''/>
+            <div className={styles.img_container}>
+              <Image className={styles.hero_img} src={heroImage} alt=''/>
+            </div>
             
-
     </section>
   )
 }

@@ -3,8 +3,8 @@ import Image from 'next/image'
 // internal components
 import Button from '@/components/Button/Button'
 // internal assets
-import newProject from '../../../../public/images/newProject.png'
-
+import newProject from '../../../../public/images/newProject.jpg'
+// Image by pch.vector on Freepik
 
 function NewProject() {
   return (
