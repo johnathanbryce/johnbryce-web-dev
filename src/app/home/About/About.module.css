@@ -1,0 +1,37 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--contentGap);
+}
+
+.text_container{
+    margin-top: 5rem;
+    width: 65%;
+    text-align: center;
+}
+
+.text_container_bottom {
+    margin-top: 2rem;
+    width: 65%;
+    text-align: center;
+}
+
+.bio_pic{
+    width: 25rem;
+    border-radius: var(--borderRadius);
+    --webkit-box-shadow: 0 25px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.2);
+    border: 0.3rem solid white;
+    margin: 2rem 0;
+}
+
+.text_container_bottom h6 {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+

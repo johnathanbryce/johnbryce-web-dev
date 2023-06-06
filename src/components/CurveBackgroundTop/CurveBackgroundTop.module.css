@@ -1,4 +1,3 @@
-/* BACKGROUND SVG */
 .bg_curve{
     position: absolute;
     top: 0;
@@ -27,7 +26,6 @@
 .background_curve .shape_fill {
     fill: var(--primaryColor);
 }
-/* ******* */
 
 /* adjusments */
 @media only screen and (max-width: 1000px){
@@ -37,9 +35,26 @@
     }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 920px){
     .background_curve{
         top: 9.5rem;
+    }
+    .background_curve svg {
+        height: 60rem;
+    }
+}
+
+/* Mobile Devices up to 480px */
+@media (max-width: 850px) {  
+    .background_curve svg {
+       /*  height: 60vh; */
+    }
+}
+
+/* Mobile Devices up to 480px */
+@media (max-width: 480px) {  
+    .background_curve svg {
+        height: 75vh;
     }
 }
 
