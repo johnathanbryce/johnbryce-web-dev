@@ -8,7 +8,7 @@ import heroImage from '../../../../public/images/heroImage.png'
 
 function Hero() {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="home">
             <CurveBackgroundTop />
             <div className={styles.hero_text_container}>
                 <h1> Small Business Web Design + Development </h1>

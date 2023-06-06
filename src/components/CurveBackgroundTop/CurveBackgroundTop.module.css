@@ -2,8 +2,6 @@
     position: absolute;
     top: 12rem;
     left: -10rem;
-    /* width: 110%; */
-/*     overflow: hidden; */
     overflow: hidden;
     line-height: 0;
     z-index: -10;

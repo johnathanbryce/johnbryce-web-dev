@@ -1,7 +1,9 @@
+'use client'
 import styles from './Footer.module.css'
-import Link from 'next/link'
 // internal components
 import CurveBackgroundBottom from '../CurveBackgroundBottom/CurveBackgroundBottom'
+// external libraries
+import { Link } from 'react-scroll'
 
 function Footer() {
   return (
@@ -18,12 +20,12 @@ function Footer() {
           <div className={styles.footer_content}>
             <h4> Navigation </h4>
             <nav className={styles.navbar}>
-                <ul>
-                    <li><Link href="" > Services </Link></li>
-                    <li><Link href="" > Portfolio </Link></li>     
-                    <li><Link href="" > About </Link></li>
-                    <li><Link href="" > Contact </Link></li>  
-                </ul>
+            <ul>
+                <li><Link to="services" spy={true} smooth={true} duration={500} offset={-10} > Services </Link></li>
+                <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-10} > Portfolio </Link></li>     
+                <li><Link to="about" spy={true} smooth={true} duration={500} offset={-10} > About </Link></li>
+                <li><Link to="fadfsda"> Contact </Link></li>  
+            </ul>
             </nav>
           </div>
       </section>

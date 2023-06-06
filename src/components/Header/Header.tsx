@@ -1,12 +1,12 @@
 'use client'
 import {useState, useEffect, useRef} from 'react'
 import styles from './Header.module.css'
-import Link from 'next/link'
-// internal assets
-
+/* import Link from 'next/link' */
 // internal components
 import NavBarDropdown from '../NavBarDropDown/NavBarDropDown'
 import HamburgerDropdown from '../HamburgerDropdown/HamburgerDropdown'
+// external libraries
+import { Link } from 'react-scroll'
 
 
 /*
@@ -54,21 +54,21 @@ function HeaderStandard() {
 
         <nav className={styles.navbar}>
             <ul>
-                <li><Link href="" > Services </Link></li>
-                <li><Link href="" > Portfolio </Link></li>     
-                <li><Link href="" > About </Link></li>
-                <li><Link href="" > Contact </Link></li>  
+                <li><Link to="services" spy={true} smooth={true} duration={500} offset={-10} > Services </Link></li>
+                <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-10} > Portfolio </Link></li>     
+                <li><Link to="about" spy={true} smooth={true} duration={500} offset={-10} > About </Link></li>
+                <li><Link to=""> Contact </Link></li>  
             </ul>
         </nav>
         
         {/* dropdown nav displays on >950 px screen size */}
         { isDropdownActive &&
             <NavBarDropdown>
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Home </Link></li> 
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Services </Link></li>  
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Portfolio </Link></li>     
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> About </Link></li>
-                    <li><Link href="" onClick={onNavItemClickCloseDropdown}> Contact </Link></li>
+                    <li><Link to="home" spy={true} smooth={true} duration={500} offset={-850} onClick={onNavItemClickCloseDropdown}> Home </Link></li> 
+                    <li><Link to="services" spy={true} smooth={true} duration={500} offset={-950}  onClick={onNavItemClickCloseDropdown}> Services </Link></li>  
+                    <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-950} onClick={onNavItemClickCloseDropdown}> Portfolio </Link></li>     
+                    <li><Link to="about" spy={true} smooth={true} duration={500} offset={-950} onClick={onNavItemClickCloseDropdown}> About </Link></li>
+                    <li><Link to=''> Contact </Link></li>
             </NavBarDropdown>
         }
 

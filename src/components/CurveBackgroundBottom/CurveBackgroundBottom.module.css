@@ -12,7 +12,7 @@
 .background_curve svg {
     position: relative;
     display: block;
-    width: calc(110%);
+    width: 110%;
     height: 55vh;
 }
 
