@@ -1,34 +1,37 @@
 .background_curve {
     position: absolute;
+    width: 110%;
     top: 12rem;
-    left: -10rem;
+    left: -6rem;
     overflow: hidden;
     line-height: 0;
-    z-index: -10;
+
 }
 
 .background_curve svg {
     position: relative;
     display: block;
-    width: calc(100% + 15rem);
+    width: 110%;
     height: 80vh;
+    overflow: hidden;
 }
 
 .background_curve .shape_fill {
     fill: var(--primaryColor);
+    overflow: hidden;
 }
 
 /* adjusments */
 @media only screen and (max-width: 1000px){
     .background_curve{
         top: 11rem;
-        left: -14rem;
     }
 }
 
 @media only screen and (max-width: 920px){
     .background_curve{
         top: 9.5rem;
+        left: -4rem;
     }
     .background_curve svg {
         height: 60rem;
@@ -37,8 +40,12 @@
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
+    .background_curve{
+        width: 112%;
+    }
     .background_curve svg {
-        height: 75vh;
+        width: 110%;
+        
     }
 }
 

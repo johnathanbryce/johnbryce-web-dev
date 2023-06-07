@@ -3,13 +3,15 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5rem;
+
 }
 
 .hero_text_container{
     display: flex;
     flex-direction: column;
-    gap: var(--contentGap);
+    gap: 2rem;
     flex: 0.5;
+    z-index: 1;
 }
 
 .img_container{
@@ -17,7 +19,6 @@
     width: 75rem;
     right: 0rem;
     top: 17.5rem;
-    z-index: -1;
 }
 
 .hero_img{
@@ -27,7 +28,7 @@
 
 .hero_text{
     color: var(--textColor);
-    font-size: clamp(1.4rem, 3vw, 2rem)
+    font-size: clamp(1.4rem, 3vw, 2rem);
 }
 
 
@@ -83,9 +84,9 @@
 /* Smaller Mobile Devices up to 420px */
 @media (max-width: 420px) {  
     .img_container{
-        /* width: 24rem; */
+        width: 34rem;
         top: 50rem;
-        right: 3rem;
+        right: -1rem;
     }
 }
 
