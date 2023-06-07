@@ -1,10 +1,10 @@
 'use client'
 import {useState, useEffect, useRef} from 'react'
 import styles from './Header.module.css'
-/* import Link from 'next/link' */
 // internal components
 import NavBarDropdown from '../NavBarDropDown/NavBarDropDown'
 import HamburgerDropdown from '../HamburgerDropdown/HamburgerDropdown'
+import ContactModal from '../ContactModal/ContactModal'
 // external libraries
 import { Link } from 'react-scroll'
 
@@ -45,9 +45,22 @@ function HeaderStandard() {
         document.removeEventListener('mousedown', closeDropdownHandler)
       }
     }, [])
+
+    // open and close contact modal
+    const [isContactModalActive, setIsContactModalActive] = useState(false);
+
+    const onClickOpenModal = () => {
+      setIsContactModalActive(true);                                               
+    }
+  
+    const onClickCloseModal = () => {
+      setIsContactModalActive(false);                                               
+    }
     
   return (
     <header className={styles.header} ref={dropdownRef}>
+        {/* toggle contact modal */}
+        {isContactModalActive && <ContactModal onClickCloseModal={onClickCloseModal}/>}
         {/*  dropdown icon displays >950 px screen size*/}
         <HamburgerDropdown isDropdownActive={isDropdownActive} toggleDropdown={toggleDropdown}/>
         <h1>jB</h1>
@@ -57,7 +70,7 @@ function HeaderStandard() {
                 <li><Link to="services" spy={true} smooth={true} duration={500} offset={-10} > Services </Link></li>
                 <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-10} > Portfolio </Link></li>     
                 <li><Link to="about" spy={true} smooth={true} duration={500} offset={-10} > About </Link></li>
-                <li><Link to=""> Contact </Link></li>  
+                <li><Link to="" onClick={onClickOpenModal}> Contact </Link></li>  
             </ul>
         </nav>
         
@@ -68,7 +81,7 @@ function HeaderStandard() {
                     <li><Link to="services" spy={true} smooth={true} duration={500} offset={-950}  onClick={onNavItemClickCloseDropdown}> Services </Link></li>  
                     <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-950} onClick={onNavItemClickCloseDropdown}> Portfolio </Link></li>     
                     <li><Link to="about" spy={true} smooth={true} duration={500} offset={-950} onClick={onNavItemClickCloseDropdown}> About </Link></li>
-                    <li><Link to=''> Contact </Link></li>
+                    <li><Link to='' onClick={onClickOpenModal}> Contact </Link></li>
             </NavBarDropdown>
         }
 
