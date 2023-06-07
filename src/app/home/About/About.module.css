@@ -34,5 +34,14 @@
     font-weight: 400;
 }
 
-
+/* Mobile Devices up to 480px */
+@media (max-width: 480px) {  
+    .bio_pic{
+        margin: 0.5rem 0;
+        width: 17rem;
+    }
+    .text_container_bottom{
+        margin-bottom: 1.8rem;
+    }
+}
 
