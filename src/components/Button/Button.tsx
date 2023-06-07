@@ -2,11 +2,12 @@ import styles from './Button.module.css'
 
 interface ButtonProps {
     label: string,
-    bgColorBlue?: boolean
+    bgColorBlue?: boolean,
+    onClick?: () => void,
 }
-function Button({label, bgColorBlue}: ButtonProps) {
+function Button({label, bgColorBlue, onClick}: ButtonProps) {
   return (
-    <button className={`${styles.hero_btn} ${bgColorBlue ? styles.hero_btn_blue : ''}`}>
+    <button onClick={onClick} className={`${styles.hero_btn} ${bgColorBlue ? styles.hero_btn_blue : ''}`}>
         <p className={bgColorBlue ? styles.hero_font_white : ''}>{label}</p>
     </button>
   )

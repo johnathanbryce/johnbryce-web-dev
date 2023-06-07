@@ -1,13 +1,27 @@
 'use client'
+import { useState } from 'react'
 import styles from './Footer.module.css'
 // internal components
 import CurveBackgroundBottom from '../CurveBackgroundBottom/CurveBackgroundBottom'
+import ContactModal from '../ContactModal/ContactModal'
 // external libraries
 import { Link } from 'react-scroll'
 
 function Footer() {
+  // open and close contact modal
+  const [isContactModalActive, setIsContactModalActive] = useState(false);
+
+  const onClickOpenModal = () => {
+    setIsContactModalActive(true);                                               
+  }
+
+  const onClickCloseModal = () => {
+    setIsContactModalActive(false);                                               
+  }
   return (
       <section className={styles.footer}>
+          {/* toggle contact modal */}
+          {isContactModalActive && <ContactModal onClickCloseModal={onClickCloseModal}/>}
           <CurveBackgroundBottom />
           <div className={styles.footer_content}>
             <div className={styles.logo_wrapper}>
@@ -24,7 +38,7 @@ function Footer() {
                 <li><Link to="services" spy={true} smooth={true} duration={500} offset={-10} > Services </Link></li>
                 <li><Link to="portfolio" spy={true} smooth={true} duration={500} offset={-10} > Portfolio </Link></li>     
                 <li><Link to="about" spy={true} smooth={true} duration={500} offset={-10} > About </Link></li>
-                <li><Link to="fadfsda"> Contact </Link></li>  
+                <li><Link to="fadfsda" onClick={onClickOpenModal}> Contact </Link></li>  
             </ul>
             </nav>
           </div>
