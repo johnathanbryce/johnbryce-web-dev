@@ -5,6 +5,8 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
+    touch-action: pan-y;
+    overscroll-behavior-x: none;
 }
 
 body {
@@ -63,6 +65,5 @@ h5 {
 h6 {
   font-size: clamp(1.4rem, 2vw, 2rem);
 }
-
 
 
