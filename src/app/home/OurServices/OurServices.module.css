@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    margin-top: 18rem;
+    margin-top: 30rem;
     margin-bottom: 7rem;
 }
 
@@ -70,7 +70,7 @@
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
     .services{
-        margin-top: 18rem;
+        margin-top: 18.5rem;
     }
 }
 
