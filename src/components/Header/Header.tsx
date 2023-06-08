@@ -17,7 +17,7 @@ NOTES:
 
 */
 
-function HeaderStandard() {
+function Header() {
     const dropdownRef = useRef<HTMLDivElement>(null);
     // dropdown navbar menu on smaller screens:
     const [isDropdownActive, setIsDropdownActive] = useState(false);
@@ -91,4 +91,4 @@ function HeaderStandard() {
   )
 }
 
-export default HeaderStandard
+export default Header
