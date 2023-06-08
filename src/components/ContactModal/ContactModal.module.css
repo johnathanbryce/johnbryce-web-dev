@@ -61,7 +61,6 @@
     padding: 5rem 5rem;
     position: relative; /* necessary for close btn */
     border-radius: var(--borderRadius);
-   
 }
 
 .contact_info{
@@ -69,7 +68,7 @@
     justify-content: space-between;
 }
 
-.contact_info p{
+.contact_info a{
     color: var(--tertiaryColor);
     font-weight: 900;
     font-size: clamp(1.2rem, 2vw, 1.8rem)
@@ -109,7 +108,16 @@
     border-radius: var(--borderRadius);
     box-sizing: border-box;
     resize: none;
-    font-size: clamp(0.8rem, 2vw, 1.6rem)
+    font-size: 1.6rem;
+
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.input::placeholder, .textarea::placeholder{
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .textarea {

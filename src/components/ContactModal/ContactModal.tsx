@@ -47,9 +47,9 @@ const handleFormSubmit = () => {
             </div>
             <h2 className={styles.title}><span className={styles.highlight_title}>Contact</span> Us</h2>
             <div className={styles.contact_info}>
-                <p>Email: johnathanbryce@gmail.com </p>
-                <div></div>
-                <p>Phone: (604) 220 7425 </p>
+              <a href="mailto:johnathanbryce@gmail.com" target="_blank">johnathanbryce@gmail.com</a>
+              <div></div>
+              <a href="tel:+6042207425"> (604) 220 7425</a>
             </div>
             <form className={styles.form} action={EMAIL_CONTACT_EXTERNAL} onSubmit={handleFormSubmit} method="post" target="_blank">
                 <div className={styles.form_group}>
