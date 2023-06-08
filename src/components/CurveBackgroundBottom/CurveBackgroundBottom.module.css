@@ -21,6 +21,12 @@
     
 }
 
+@media screen and (min-width: 1620px) and (min-height: 1000px) {
+    .background_curve svg {
+        height: 50rem;
+    }
+}
+
 @media only screen and (max-width: 840px){
     .background_curve svg {
         height: 40rem;
