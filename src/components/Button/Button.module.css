@@ -1,44 +1,50 @@
-.hero_btn{
+.reusable_btn{
     background-color: var(--defaultColor);
     padding: 2rem;
     width: 22rem;
     border-radius: var(--borderRadius);
 }
 
-.hero_btn:hover{
+.reusable_btn:hover{
     transition: var(--hoverTransition);
     background-color: var(--tertiaryColor);
     outline: 0.2rem solid var(--defaultColor);
 }
-
-.hero_btn p{
+.reusable_font_dark{
     font-weight: bold;
     color: var(--textColorFlip);
 }
 
-.hero_btn:hover p {
+.reusable_font_dark:hover p {
     color: var(--primaryColor);
 }
 
 /* blue bg styles */
-.hero_btn_blue{
+.reusable_btn_blue{
     background-color: var(--secondaryColor);
     border-radius: var(--borderRadius);
+    --webkit-box-shadow: 0 25px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.2);
 }
 
-.hero_font_white{
+.reusable_font_white{
     font-weight: bold;
     color: var(--textColor);
 }
 
-.hero_btn_blue:hover{
+.reusable_btn_blue:hover {
+    transition: var(--hoverTransition);
     background-color: var(--defaultColor);
-    outline: 0.2rem solid var(--primaryColor); 
+    outline: 0.2rem solid var(--primaryColor);
+  }
+  
+.reusable_btn_blue:hover p {
+    color: var(--primaryColor);
 }
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {
-    .hero_btn{
+    .reusable_btn{
         width: 18rem;
     }
 }

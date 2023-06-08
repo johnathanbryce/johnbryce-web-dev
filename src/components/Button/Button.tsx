@@ -7,8 +7,8 @@ interface ButtonProps {
 }
 function Button({label, bgColorBlue, onClick}: ButtonProps) {
   return (
-    <button onClick={onClick} className={`${styles.hero_btn} ${bgColorBlue ? styles.hero_btn_blue : ''}`}>
-        <p className={bgColorBlue ? styles.hero_font_white : ''}>{label}</p>
+    <button onClick={onClick} className={`${styles.reusable_btn} ${bgColorBlue ? styles.reusable_btn_blue : ''}`}>
+        <p className={bgColorBlue ? styles.reusable_font_white : styles.reusable_font_dark}>{label}</p>
     </button>
   )
 }
