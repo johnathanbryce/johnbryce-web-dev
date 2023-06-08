@@ -12,13 +12,20 @@
     position: relative;
     display: block;
     width: 110%;
-    height: 80vh;
+    height: 65rem;
     overflow: hidden;
 }
 
 .background_curve .shape_fill {
     fill: var(--primaryColor);
     overflow: hidden;
+}
+
+@media screen and (min-width: 1620px) and (min-height: 1000px) {
+    .background_curve svg {
+        width: 94.5%;
+        height: 62rem;
+    }
 }
 
 /* adjusments */
