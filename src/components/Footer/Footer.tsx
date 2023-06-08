@@ -19,7 +19,7 @@ function Footer() {
     setIsContactModalActive(false);                                               
   }
   return (
-      <section className={styles.footer}>
+      <footer className={styles.footer}>
           {/* toggle contact modal */}
           {isContactModalActive && <ContactModal onClickCloseModal={onClickCloseModal}/>}
           <CurveBackgroundBottom />
@@ -42,7 +42,7 @@ function Footer() {
             </ul>
             </nav>
           </div>
-      </section>
+      </footer>
   )
 }
 

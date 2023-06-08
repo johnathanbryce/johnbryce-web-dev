@@ -12,8 +12,9 @@ import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
   return (
-    <main>
-      <Header />
+    <>
+     <Header />
+     <main>
       <LayoutContainer>
         <Hero />  
         <OurServices />
@@ -23,7 +24,9 @@ export default function Home() {
         <Portfolio />
         <About />
       </LayoutContainer>
-      <Footer />
     </main>
+     <Footer />
+    </>
+
   )
 }
