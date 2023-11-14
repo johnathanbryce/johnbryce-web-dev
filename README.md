@@ -48,4 +48,4 @@ While this is a personal portfolio site, feedback and contributions regarding th
 
 **Contact** Johnathan Bryce - johnathanbryce@gmail.com
 
-Project Link: https://github.com/johnathanbryce/fitfriends
+Project Link: https://github.com/johnathanbryce/johnbryce-weeb-dev
