@@ -21,6 +21,7 @@
     width: 30rem;
     margin-top: auto;
     align-self: flex-start;
+    text-align: center;
     border-radius: var(--borderRadius);
 }
 
@@ -30,12 +31,12 @@
     outline: 0.2rem solid var(--primaryColor);
 }
 
-.portfolio_btn p{
+.portfolio_btn {
     font-weight: bold;
     color: var(--textColor);
 }
 
-.portfolio_btn:hover p {
+.portfolio_btn:hover {
     color: var(--primaryColor);
 }
 

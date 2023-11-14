@@ -8,15 +8,6 @@ import ContactModal from '../ContactModal/ContactModal'
 // external libraries
 import { Link } from 'react-scroll'
 
-
-/*
-NOTES:
-- SINGLE PAGE SCROLL NAVIGATION: use 'react-scroll' package
-    - import { Link } from 'react-scroll'
-    -  <li><Link to="about" spy={true} smooth={true} duration={500} offset={10} > ABOUT </Link></li>
-
-*/
-
 function Header() {
     const dropdownRef = useRef<HTMLDivElement>(null);
     // dropdown navbar menu on smaller screens:
@@ -84,9 +75,6 @@ function Header() {
                     <li><Link to='' onClick={onClickOpenModal}> Contact </Link></li>
             </NavBarDropdown>
         }
-
-
-
     </header>
   )
 }

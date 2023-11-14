@@ -1,9 +1,13 @@
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5rem); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .hero{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5rem;
-
 }
 
 .hero_text_container{
@@ -12,6 +16,8 @@
     gap: 2rem;
     flex: 0.5;
     z-index: 1;
+    animation: fadeIn 1s ease-out 0.5s;
+    animation-fill-mode: backwards;
 }
 
 .img_container{
@@ -19,6 +25,8 @@
     width: 75rem;
     right: 0rem;
     top: 17.5rem;
+    animation: fadeIn 1s ease-out 1s;
+    animation-fill-mode: backwards;
 }
 
 .hero_img{
