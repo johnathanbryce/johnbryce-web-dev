@@ -23,7 +23,7 @@ function WhyHandCodeModal({onClickCloseModal}: WhyHandCodeModalProps) {
             <p>What sets us apart in the development realm is our distinct approach: no WordPress, frameworks, or page builders. We craft each line of code meticulously, granting us unparalleled control over design and lightning-fast website performance.</p>
             <p>Hand-built websites surpass most WordPress sites and drag-and-drop builders, delivering superior results without hefty price tags. In the realm of the web, speed and organization reign supreme.</p>
           </div>
-          <Image src={whyHandCode} className={styles.why_hand_code_img} alt=''/>
+          <Image src={whyHandCode} className={styles.why_hand_code_img} priority alt='a rocket ship blasting off'/>
         </div>
     </aside>
   )

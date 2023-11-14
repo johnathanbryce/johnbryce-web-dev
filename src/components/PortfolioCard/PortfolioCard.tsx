@@ -1,5 +1,6 @@
 import styles from './PortfolioCard.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 interface PortfolioCardProps {
@@ -20,9 +21,14 @@ function PortfolioCard({image, header, location, description, buttonLabel, butto
           <p className={styles.location}>{location}</p>
         </div>
         <p> {description} </p>
-        <button className={styles.portfolio_btn}>
-            <a href={buttonSrc} target="_blank" rel="noreferrer"><p>VISIT {buttonLabel}</p></a>
-        </button>
+        <Link 
+          href={buttonSrc} 
+          className={styles.portfolio_btn}
+          target="_blank" 
+          rel="noreferrer"
+          >
+          <span>VISIT</span> {buttonLabel}
+        </Link>
     </div>
   )
 }

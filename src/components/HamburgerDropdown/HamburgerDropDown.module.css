@@ -1,10 +1,8 @@
 .hamburger, .hamburger_active{
     display: none;
-    /* adjust as necessary */
     position: absolute;
     top: 4.5rem;
     right: 8rem;
-    /* */
     cursor: pointer;
     color: white;
 }
@@ -33,8 +31,7 @@
 /* Tablets (portrait) */
 @media (max-width: 950px) { 
     .hamburger{
-        display: block;
-        
+        display: block;    
     }
 }
 
