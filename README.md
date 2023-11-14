@@ -10,7 +10,7 @@ Welcome to jB Small Business Web Design + Development, a landing page that showc
 - Responsive Layout: Fully responsive web design ensuring a seamless experience on all devices.
 - Portfolio Showcase: A section dedicated to showcasing past projects and successes.
 - Contact Form: An easy-to-use contact form for potential clients to reach out.
-- 
+  
 **Technologies**
 - Frontend: Next.js, TypeScript, CSS
 - Hosting/Deployment: Vercel
@@ -46,6 +46,6 @@ While this is a personal portfolio site, feedback and contributions regarding th
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-**Contact **Johnathan Bryce - johnathanbryce@gmail.com
+**Contact** Johnathan Bryce - johnathanbryce@gmail.com
 
 Project Link: https://github.com/johnathanbryce/fitfriends
