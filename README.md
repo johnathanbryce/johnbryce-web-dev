@@ -1,5 +1,5 @@
 JB Small Business Web Design + Development
-https://www.johnbrycewebdev.com/
+- https://www.johnbrycewebdev.com/
 
 **Introduction**
 Welcome to jB Small Business Web Design + Development, a landing page that showcases my web development and design expertise, specifically tailored for small businesses. This site is not just a portfolio piece; it's a testament to my commitment to helping small businesses establish a strong online presence.
