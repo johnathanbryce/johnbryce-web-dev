@@ -12,9 +12,9 @@ const roboto = Roboto({
 
 
 export const metadata = {
-  title: 'JB - Web Design and Development',
+  title: 'Blue Wave Dev',
   description: 'A business page for small business web design and development',
-  keywords: 'Johnathan Bryce, John Bryce, web development, web design, small business, small business web design, small business web development, Vancouver, HTML, CSS, Next.js, React, web development Vancouver, British Columbia, Canada'
+  keywords: 'Blue Wave Dev, Blue Wave, development, Johnathan Bryce, John Bryce, web development, web design, small business, small business web design, small business web development, Vancouver, HTML, CSS, Next.js, React, web development Vancouver, British Columbia, Canada'
   
 }
 

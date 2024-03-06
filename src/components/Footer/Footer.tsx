@@ -25,8 +25,8 @@ function Footer() {
           <CurveBackgroundBottom />
           <div className={styles.footer_content}>
             <div className={styles.logo_wrapper}>
-              <h4> jB </h4>
-              <p> WEB DEVELOPMENT </p>
+              <h4> Blue Wave </h4>
+              <p> Web Design + Development </p>
             </div>
             <a href="mailto:johnathanbryce@gmail.com">johnathanbryce@gmail.com</a>
             <a href="tel:+6042207425"> (604) 220 7425</a>

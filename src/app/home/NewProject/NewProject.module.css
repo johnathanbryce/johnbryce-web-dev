@@ -47,6 +47,7 @@
         align-items: center;
         text-align: center;
     }
+    
     .contact_container{
         flex-direction: column;
     }
@@ -56,6 +57,8 @@
         width: 20rem;
     }
 }
+
+
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px){

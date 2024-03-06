@@ -6,6 +6,7 @@ import PortfolioCard from '@/components/PortfolioCard/PortfolioCard'
 import julienV from '../../../../public/images/julienV.jpeg'
 import romp from '../../../../public/images/romp.jpeg'
 import sollunnaEssence from '../../../../public/images/sollunnaEssence.jpeg'
+import labridgeFarms from '../../../../public/images/labridgeFarms.png'
 
 function Portfolio() {
   return (
@@ -29,6 +30,14 @@ function Portfolio() {
                 buttonSrc="https://rompathlete.com/"
             />
             <PortfolioCard 
+                image={labridgeFarms}
+                header='Labridge Farms'
+                location='Glenmount, NS'
+                description='The digital gateway to Labridge Farms, highlighting their premium farm-raised meats and high-quality Labrador Retrievers.'
+                buttonLabel="LABRIDGE FARMS"
+                buttonSrc='https://labridgefarms.com/farm'
+            />
+            <PortfolioCard 
                 image={sollunnaEssence}
                 header='SolLuna Essence'
                 location='Vancouver, BC'
@@ -36,9 +45,7 @@ function Portfolio() {
                 buttonLabel="SOLLUNA ESSENCE"
                 buttonSrc='https://www.sollunaessence.com/'
             />
-
         </div>
-
     </section>
   )
 }

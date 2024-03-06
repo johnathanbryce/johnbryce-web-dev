@@ -5,6 +5,7 @@
     align-items: center;
     gap: var(--contentGap);
     margin-bottom: 12rem;
+    margin-top: 5rem;
 }
 
 .text_container{
@@ -32,6 +33,13 @@
     color: #999;
     text-transform: uppercase;
     font-weight: 400;
+}
+
+/* Tablets (portrait) */
+@media (max-width: 950px){
+    .text_container{
+        text-align: left;
+    }
 }
 
 /* Mobile Devices up to 480px */

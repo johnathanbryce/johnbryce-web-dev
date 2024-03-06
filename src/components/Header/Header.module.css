@@ -42,6 +42,10 @@
     transform: scaleX(1);
 }
 
+.logo {
+    width: 8rem;
+}
+
 /* Smaller Screen Rezise */
 @media only screen and (max-width: 1200px){
     .header {
@@ -59,12 +63,18 @@
     .navbar{
         display: none;
     }
+
+
 }
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) { 
     .header{
         padding: 3rem 2.5rem; /* MATCH WITH FOOTER */
+    }
+
+    .logo {
+        width: 4.5rem;
     }
 }
 

@@ -41,8 +41,13 @@
 }
 
 /* Mobile Devices up to 480px */
-@media (max-width: 480px) {  
+@media (max-width: 480px) { 
+    .portfolio_card{
+        gap: 1.8rem;
+        padding: 1.5rem;
+    } 
     .portfolio_btn{
-        width: 70%;
+        font-size: 1.5rem;
+        width: 100%;
     }
 }

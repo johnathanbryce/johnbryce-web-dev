@@ -36,16 +36,17 @@
     transition: var(--hoverTransition);
     background-color: var(--defaultColor);
     outline: 0.2rem solid var(--primaryColor);
+    color: var(--primaryColor);
   }
   
-.reusable_btn_blue:hover p {
+.reusable_btn_blue:hover span {
     color: var(--primaryColor);
 }
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {
     .reusable_btn{
-        width: 18rem;
+        width: 20rem;
     }
 }
 

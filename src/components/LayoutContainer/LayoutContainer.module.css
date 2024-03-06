@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 7rem;
     margin: 0 10%;
     padding: 0;
 }
@@ -9,7 +8,7 @@
 /* Smaller Screen Rezise */
 @media only screen and (max-width: 1200px){
 .container{
-   /*  margin: 0 5rem; */
+   margin: 0 5%;
   }
 }
 
@@ -17,5 +16,6 @@
 @media only screen and (max-width: 300px){
 .container {
     margin: 0 1rem;
+   
   }
 }
