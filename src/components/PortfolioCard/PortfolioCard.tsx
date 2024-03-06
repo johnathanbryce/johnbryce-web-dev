@@ -17,7 +17,7 @@ function PortfolioCard({image, header, location, description, buttonLabel, butto
     <div className={styles.portfolio_card}>
         <Image src={image} alt='A preview of a website built by John Bryce'/>
         <div>
-          <h6>{header}</h6>
+          <h5>{header}</h5>
           <p className={styles.location}>{location}</p>
         </div>
         <p> {description} </p>

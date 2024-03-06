@@ -20,6 +20,10 @@
     animation-fill-mode: backwards;
 }
 
+.subheader {
+    color: var(--defaultColor);
+}
+
 .img_container{
     position: absolute;
     width: 75rem;
@@ -60,6 +64,9 @@
 
 /* Tablets (portrait) */
 @media (max-width: 970px) { 
+    .hero{
+        padding-top: 1rem;
+    } 
     .hero_text_container{
         flex: 1;
     }
@@ -81,22 +88,32 @@
 }
 
 /* Mobile Devices up to 480px */
-@media (max-width: 480px) {  
+@media (max-width: 480px) { 
     .img_container{
         width: 35rem;
-        top: 47.5rem;
-        right: 5rem;
+        top: 40.5rem;
+        right: 3rem;
     }
 }
 
 /* Smaller Mobile Devices up to 420px */
 @media (max-width: 420px) {  
     .img_container{
-        width: 34rem;
-        top: 50rem;
+        width: 31rem;
+        top: 40rem;
         right: -1rem;
     }
 }
+
+/* Smaller Mobile Devices up to 391px */
+@media (max-width: 391px) {  
+    .img_container{
+        width: 28.5rem;
+        top: 42rem;
+        right: 0rem;
+    }
+}
+
 
 /* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */
 @media (max-width: 325px) {  

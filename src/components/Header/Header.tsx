@@ -1,12 +1,18 @@
 'use client'
 import {useState, useEffect, useRef} from 'react'
 import styles from './Header.module.css'
+import Image from 'next/image'
 // internal components
 import NavBarDropdown from '../NavBarDropDown/NavBarDropDown'
 import HamburgerDropdown from '../HamburgerDropdown/HamburgerDropdown'
 import ContactModal from '../ContactModal/ContactModal'
 // external libraries
 import { Link } from 'react-scroll'
+// internal assets
+import Logo from '../../../public/images/logoIcon.png'
+import LogoTransparent from '../../../public/images/logoTransparent.png'
+import LogoTransparentWhite from '../../../public/images/logoTransparentWhite.png'
+import WavesLogoTransparent from '../../../public/images/wavesLogoTransparent.png'
 
 function Header() {
     const dropdownRef = useRef<HTMLDivElement>(null);
@@ -54,7 +60,15 @@ function Header() {
         {isContactModalActive && <ContactModal onClickCloseModal={onClickCloseModal}/>}
         {/*  dropdown icon displays >950 px screen size*/}
         <HamburgerDropdown isDropdownActive={isDropdownActive} toggleDropdown={toggleDropdown}/>
-        <h1>jB</h1>
+        {/* <h1>jB</h1> */}
+        <Image 
+          src={WavesLogoTransparent} 
+          alt="Blue Wave Dev's logo. A circle with two small waves"
+          className={styles.logo}
+          height={75}
+          width={75}
+          priority
+        />
 
         <nav className={styles.navbar}>
             <ul>
