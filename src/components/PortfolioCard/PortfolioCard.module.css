@@ -22,18 +22,14 @@
     margin-top: auto;
     align-self: flex-start;
     text-align: center;
-    border-radius: var(--borderRadius);
+    border-radius: var(--borderRadius);    font-weight: bold;
+    color: var(--textColor);
 }
 
 .portfolio_btn:hover{
     transition: var(--hoverTransition);
     background-color: var(--defaultColor);
     outline: 0.2rem solid var(--primaryColor);
-}
-
-.portfolio_btn {
-    font-weight: bold;
-    color: var(--textColor);
 }
 
 .portfolio_btn:hover {
@@ -47,7 +43,8 @@
         padding: 1.5rem;
     } 
     .portfolio_btn{
-        font-size: 1.5rem;
         width: 100%;
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 }

@@ -67,7 +67,7 @@
         text-align: left;
     }
 
-    .services_card{
+    .services_card, .services_card_top{
         width: 75%;
     }
 }

@@ -48,6 +48,7 @@
 @media (max-width: 1200px) { 
     .hero_text_container{
         flex: 0.6;
+        gap: 1.8rem;
     }
     .img_container{
         width: 70rem;
@@ -58,7 +59,8 @@
 /* Desktops / Laptops */
 @media (max-width: 1100px) { 
     .img_container{
-        top: 30rem;
+        top: 28rem;
+        
     }
 }
 
@@ -69,10 +71,11 @@
     } 
     .hero_text_container{
         flex: 1;
+        gap: 1.5rem;
     }
     .img_container{
         width: 50rem;
-        top: 40rem;
+        top: 34rem;
         right: 10rem;
         
     }
@@ -81,35 +84,43 @@
 /* Mobile Devices (landscape) */
 @media (max-width: 800px) { 
     .img_container{
-        width: 40rem;
-        top: 42rem;
+        width: 42rem;
+        top: 34rem;
         right: 0rem;
     }
 }
 
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) { 
+    .hero{
+        padding-top: 0;
+    } 
     .img_container{
-        width: 35rem;
-        top: 40.5rem;
-        right: 3rem;
+        width: 32rem;
+        top: 30.5rem;
+        right: 0rem;
     }
 }
 
 /* Smaller Mobile Devices up to 420px */
 @media (max-width: 420px) {  
     .img_container{
-        width: 31rem;
-        top: 40rem;
+        width: 30rem;
+        top: 32rem;
         right: -1rem;
     }
 }
 
 /* Smaller Mobile Devices up to 391px */
 @media (max-width: 391px) {  
+    .subheader {
+       width: 100%;
+       font-size: 2rem;
+    }
+
     .img_container{
-        width: 28.5rem;
-        top: 42rem;
+        width: 26.5rem;
+        top: 36rem;
         right: 0rem;
     }
 }
@@ -119,7 +130,16 @@
 @media (max-width: 325px) {  
     .img_container{
         width: 22rem;
-        top: 54rem;
+       /*  top: 54rem; */
+        right: 3rem;
+    }
+}
+
+/* Tiny Mobile Devices up to 295 px */
+@media (max-width: 295px) {  
+    .img_container{
+        width: 22rem;
+        top: 44rem;
         right: 3rem;
     }
 }

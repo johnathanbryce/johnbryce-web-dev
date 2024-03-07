@@ -64,14 +64,14 @@
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
     .footer {
-        padding: 5rem 0;
+        padding: 5rem 2rem;
     }
 }
 
 /* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */
 @media (max-width: 325px) {  
     .footer {
-        padding: 1rem 0;
+        padding: 1rem 2rem;
         gap: 2rem;
     }
 
