@@ -46,9 +46,22 @@
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {
     .reusable_btn{
-        width: 20rem;
+        width: 16rem;
+        padding: 1.5rem;
+    }
+
+    .reusable_font_white, .reusable_font_dark{
+        font-size: 1.2rem;
     }
 }
+
+/* Mobile Devices up to 380px */
+@media (max-width: 380px) {  
+    .reusable_btn{
+     
+    }
+}
+
 
   
   

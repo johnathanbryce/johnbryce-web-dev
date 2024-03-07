@@ -43,14 +43,14 @@
 /* Smaller Mobile Devices up to 400px */
 @media (max-width: 420px) {  
     .background_curve svg {
-        height: 32.5rem;
+        height: 37.5rem;
     }
 }
 
 /* Tiny Mobile Devices up to 325px (e.g. galaxy fold) */
 @media (max-width: 325px) {  
     .background_curve svg {
-        height: 22rem;
+        height: 30rem;
     }
 }
 
