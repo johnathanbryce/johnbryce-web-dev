@@ -48,7 +48,7 @@
 /* Mobile Devices up to 480px */
 @media (max-width: 480px) {  
     .background_curve{
-        width: 116.2%;
+        width: 110.2%;
     }
     .background_curve svg {
         width: 100%;

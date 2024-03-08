@@ -1,10 +1,15 @@
 .hamburger, .hamburger_active{
     display: none;
     position: absolute;
-    top: 4.5rem;
+    top: 4rem;
     right: 8rem;
     cursor: pointer;
     color: white;
+    z-index: 100;
+}
+
+.hamburger_active {
+    position: fixed;
 }
   
 .bar {
