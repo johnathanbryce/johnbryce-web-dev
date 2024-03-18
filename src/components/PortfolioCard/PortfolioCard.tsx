@@ -15,7 +15,12 @@ interface PortfolioCardProps {
 function PortfolioCard({image, header, location, description, buttonLabel, buttonSrc}: PortfolioCardProps) {
   return (
     <div className={styles.portfolio_card}>
-        <Image src={image} alt='A preview of a website built by John Bryce'/>
+        <Image 
+          src={image} 
+          alt='A preview of a website built by Blue Wave Dev'
+          width={500}
+          height={500}
+        />
         <div>
           <h5>{header}</h5>
           <p className={styles.location}>{location}</p>

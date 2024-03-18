@@ -36,6 +36,7 @@
 .hero_img{
     width: 100%;
     pointer-events: none;
+   /*  object-fit: contain; */
 }
 
 .hero_text{
