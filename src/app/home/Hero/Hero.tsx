@@ -33,7 +33,13 @@ function Hero() {
           <Button label="GET IN TOUCH" onClick={onClickOpenModal}/>
       </div>
       <div className={styles.img_container}>
-        <Image className={styles.hero_img} src={heroImage} alt=''/>
+        <Image className={styles.hero_img} 
+          src={heroImage} 
+          alt="A laptop and phone showcasing one of Blue Wave Dev's projects" 
+          width={500}
+          height={500}
+          priority
+        />
       </div>
     </section>
   )
